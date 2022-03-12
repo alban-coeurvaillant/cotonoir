@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap");
+* {
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+}
+
+body {
+  background: black;
+}
+
+.wrapper {
+  background: black;
+  padding: 1rem;
+  color: white;
+  max-width: 30rem;
+  margin: auto;
+}
+.wrapper #main-logo {
+  max-width: 14rem;
+  margin: auto;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
