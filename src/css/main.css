@@ -60,9 +60,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-body .wrapper {
-  outline: solid;
-}
 body h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -72,7 +69,8 @@ body h2 {
   margin-bottom: 2rem;
 }
 body h3 {
-  outline: red;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 body p {
   margin-bottom: 1.5rem;
