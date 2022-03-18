@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, html {
+  background: black;
+  margin: 0;
+  height: 100%;
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+body .wrapper {
+  outline: solid;
+}
+body h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+body h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+body h3 {
+  outline: red;
+}
+body p {
+  margin-bottom: 1.5rem;
+}
+body .wrapper {
+  max-width: 480px;
+}
+body footer {
+  margin-top: auto;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+* {
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+}
+
+nav#main {
+  background: blue;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav a {
+  display: block;
+  color: white;
+  margin-right: 0.8rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+nav a:hover {
+  background: yellow;
+}
+
+.wrapper {
+  background: black;
+  padding: 1rem;
+  color: white;
+  max-width: 30rem;
+  margin: auto;
+}
+.wrapper #main-logo {
+  max-width: 16rem;
+  margin: auto;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: black;
+}
+footer p {
+  padding: 1rem;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
