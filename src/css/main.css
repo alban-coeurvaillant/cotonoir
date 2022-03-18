@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap");
+.btn {
+  background: transparent;
+  color: white;
+  border: transparent;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+  background: grey;
+  display: block;
+  padding: 0.4rem;
+  width: 100%;
+  font-size: 1rem;
+}
+.btn a:hover {
+  background: red;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,9 +78,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-body .wrapper {
-  outline: solid;
-}
 body h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -72,7 +87,8 @@ body h2 {
   margin-bottom: 2rem;
 }
 body h3 {
-  outline: red;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 body p {
   margin-bottom: 1.5rem;
